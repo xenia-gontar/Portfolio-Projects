@@ -1,0 +1,501 @@
+word,translation,status
+que,that,0
+de,of,0
+no,No,0
+a,a,0
+la,the,0
+el,the,0
+es,it is,0
+y,Y,0
+en,in,0
+lo,it,0
+un,a,0
+por,by,0
+qué,what,0
+me,I,0
+una,a,0
+te,tea,0
+los,the,0
+se,I know,0
+con,with,0
+para,for,0
+mi,me,0
+está,this,0
+si,Yes,0
+bien,right,0
+pero,but,0
+yo,me,0
+eso,it's,0
+las,the,0
+sí,Yes,0
+su,its,0
+tu,your,0
+aquí,here,0
+del,of,0
+al,to the,0
+como,What,0
+le,you,0
+más,plus,0
+esto,this,0
+ya,Already,0
+todo,all,0
+esta,is,0
+vamos,we go,0
+muy,very,0
+hay,there are,0
+ahora,now,0
+algo,something,0
+estoy,am,0
+tengo,I've got,0
+nos,us,0
+tú,your,0
+nada,any,0
+cuando,when,0
+ha,he has,0
+este,East,0
+sé,HE,0
+estás,are,0
+así,So,0
+puedo,Can I,0
+cómo,What,0
+quiero,I want,0
+sólo,single,0
+soy,am,0
+tiene,have,0
+gracias,Thank you,0
+o,either,0
+él,the,0
+bueno,Okay,0
+fue,it was,0
+ser,be,0
+hacer,do,0
+son,are,0
+todos,everybody,0
+era,it was,0
+eres,are,0
+vez,time,0
+tienes,you have,0
+creo,I think,0
+ella,she,0
+he,He,0
+ese,that,0
+voy,I go,0
+puede,can,0
+sabes,you know,0
+hola,hello,0
+sus,their,0
+porque,because,0
+dios,god,0
+quién,who,0
+nunca,never,0
+dónde,where,0
+quieres,you want,0
+casa,House,0
+favor,favour,0
+esa,this,0
+dos,two,0
+tan,so,0
+señor,mister,0
+tiempo,weather,0
+verdad,TRUE,0
+estaba,I was,0
+mejor,better,0
+están,is it so,0
+va,goes,0
+hombre,men,0
+usted,you,0
+mucho,much,0
+hace,does,0
+entonces,then,0
+siento,I feel,0
+tenemos,we have,0
+puedes,you may,0
+ahí,there,0
+ti,you,0
+vida,life,0
+ver,watch,0
+alguien,someone,0
+sr,Mr,0
+hasta,until,0
+sin,without,0
+mí,my,0
+solo,only,0
+años,years,0
+sobre,on,0
+decir,tell,0
+uno,one,0
+siempre,forever,0
+oh,Oh,0
+ir,to go,0
+cosas,stuff,0
+también,also,0
+antes,before,0
+has,you have,0
+ni,neither,0
+mis,my,0
+día,day,0
+estar,be,0
+estamos,we're,0
+noche,night,0
+nadie,no one,0
+otra,other,0
+quiere,wants,0
+parece,It seems,0
+nosotros,us,0
+poco,little bit,0
+padre,dad,0
+trabajo,worked,0
+gente,people,0
+mira,look,0
+vas,you go,0
+sea,be,0
+les,them,0
+donde,where,0
+mismo,same,0
+hecho,done,0
+ellos,they,0
+dijo,said,0
+pasa,happens,0
+dinero,money,0
+hijo,son,0
+tal,such,0
+otro,other,0
+hablar,speak,0
+seguro,sure,0
+claro,Sure,0
+estas,these,0
+lugar,place,0
+mundo,world,0
+amigo,dude,0
+espera,wait,0
+mierda,shit,0
+han,they have,0
+tus,your,0
+sabe,knows,0
+después,after,0
+momento,moment,0
+desde,since,0
+fuera,outside,0
+cosa,stuff,0
+tipo,Type,0
+mañana,morning,0
+podemos,can,0
+dije,said,0
+gran,great,0
+necesito,needed,0
+estado,condition,0
+podría,could,0
+acuerdo,agreement,0
+papá,father,0
+tener,to have,0
+dice,He says,0
+mío,Own,0
+crees,You believe,0
+buena,good,0
+gusta,like,0
+nuestro,our,0
+nuevo,new,0
+será,will be,0
+haciendo,making,0
+días,days,0
+nombre,Name,0
+buen,good,0
+había,there was,0
+ven,come,0
+tres,three,0
+menos,less,0
+debe,must,0
+tenía,I had,0
+mal,wrong,0
+conmigo,with me,0
+madre,mother,0
+hoy,today,0
+quien,who,0
+sido,been,0
+mamá,breast,0
+tienen,have,0
+luego,later,0
+todas,all,0
+allí,over there,0
+toda,all,0
+hora,hour,0
+mujer,woman,0
+visto,viewed,0
+haces,you do,0
+importa,It matters,0
+contigo,with you,0
+ve,go,0
+tarde,afternoon,0
+oye,hears,0
+parte,part,0
+haber,to have,0
+hombres,mens,0
+problema,issue,0
+mas,plus,0
+saber,to know,0
+quería,wanted,0
+aún,even,0
+veces,times,0
+nuestra,our,0
+hacerlo,do it,0
+cada,each,0
+hizo,made,0
+veo,I see,0
+tanto,so much,0
+razón,reason,0
+ustedes,your,0
+idea,idea,0
+esos,those,0
+van,go,0
+quizá,Maybe,0
+debo,I shall,0
+alguna,some,0
+cierto,certain,0
+ud,You,0
+muerto,dead,0
+unos,some,0
+estos,these,0
+salir,leave,0
+policía,policeman,0
+realmente,Really,0
+demasiado,too,0
+familia,family,0
+pueden,they can,0
+cabeza,head,0
+hemos,we have,0
+amigos,friends,0
+chica,girl,0
+cariño,sweetie,0
+lado,side,0
+allá,there,0
+entre,Come in,0
+minutos,minutes,0
+digo,say,0
+algún,some,0
+serio,I laughed,0
+cuidado,watch out,0
+pasó,I pass,0
+buenas,good,0
+somos,are,0
+amor,love,0
+puerta,gate,0
+ves,you see,0
+vaya,wow,0
+ah,ah,0
+suerte,luck,0
+eh,Hey,0
+rápido,Quick,0
+cuenta,bill,0
+quizás,maybe,0
+esas,those,0
+pues,well,0
+pasado,past,0
+pensé,I thought,0
+todavía,yet,0
+hermano,brother,0
+debes,you should,0
+casi,almost,0
+forma,form,0
+aqui,here,0
+chico,boy,0
+ok,okay,0
+dicho,saying,0
+nueva,new,0
+sabía,I knew,0
+muchas,many,0
+dentro,within,0
+hice,I did,0
+contra,against,0
+auto,auto,0
+camino,road,0
+ayuda,aid,0
+primera,first,0
+hacia,towards,0
+vi,saw,0
+miedo,fear,0
+adiós,bye,0
+primero,first,0
+debería,should,0
+poder,can,0
+niños,kids,0
+sería,would,0
+historia,history,0
+hey,Hey,0
+mientras,while,0
+ciudad,city,0
+dijiste,said,0
+espero,wait,0
+cuánto,how many,0
+esposa,wife,0
+pronto,early,0
+chicos,Boys,0
+cualquier,any,0
+viejo,old,0
+debemos,must,0
+deja,let,0
+año,year,0
+muerte,death,0
+hablando,talking,0
+manos,hands,0
+da,gives,0
+loco,crazy,0
+problemas,problems,0
+mano,hand,0
+guerra,war,0
+semana,week,0
+pasar,spend,0
+vale,okay,0
+cuál,which,0
+viene,comes,0
+volver,return,0
+toma,taking,0
+caso,case,0
+agua,Water,0
+haré,I will do,0
+vete,go away,0
+entiendo,I get it,0
+horas,hours,0
+personas,people,0
+capitán,captain,0
+adelante,ahead,0
+niño,little boy,0
+listo,clever,0
+noches,nights,0
+buenos,good ones,0
+iba,I was going,0
+juntos,together,0
+dame,give to me,0
+único,unique,0
+déjame,let me,0
+cerca,close,0
+otros,others,0
+sigue,follow,0
+grande,great,0
+arriba,up,0
+jefe,boss,0
+habla,speech,0
+supongo,I guess,0
+manera,way,0
+quieren,They want,0
+feliz,happy,0
+significa,it means,0
+sangre,blood,0
+fin,finish,0
+bajo,bass,0
+llama,call,0
+venir,to come,0
+morir,To die,0
+importante,important,0
+hiciste,did,0
+ojos,eyes,0
+escucha,listen,0
+entrar,get in,0
+ningún,none,0
+corazón,heart,0
+diablos,Devils,0
+necesitamos,need,0
+atrás,behind,0
+durante,during,0
+dices,You say,0
+nuestros,our,0
+persona,person,0
+abajo,down,0
+dr,Dr.,0
+hija,daughter,0
+dejar,let,0
+necesita,needs to,0
+llegar,get,0
+hago,I make,0
+señora,Mrs,0
+haya,is,0
+suficiente,enough,0
+doctor,doctor,0
+gustaría,would like,0
+tierra,Earth,0
+cara,expensive,0
+siquiera,even,0
+genial,cool,0
+cree,Believe,0
+supuesto,supposed,0
+tomar,drink,0
+equipo,equipment,0
+justo,just,0
+juego,play,0
+ninguna,none,0
+matar,to kill,0
+cinco,five,0
+dicen,They say,0
+amo,love,0
+cuándo,when,0
+pequeño,little,0
+algunos,Some,0
+conozco,know,0
+clase,class,0
+maldito,damned,0
+unas,nail,0
+muchos,Many,0
+hubiera,had,0
+segundo,second,0
+aunque,though,0
+pueda,I can,0
+dime,tell me,0
+igual,Same,0
+comida,food,0
+ay,Oh,0
+cuerpo,Body,0
+encontrar,find,0
+fuerte,strong,0
+vuelta,lap,0
+venga,come on,0
+creer,believe,0
+realidad,reality,0
+saben,They know,0
+puta,bitch,0
+deberías,you should,0
+pregunta,Question,0
+fui,I was,0
+cuatro,four,0
+sra,Mrs,0
+primer,first,0
+trabajar,to work,0
+e,and,0
+hagas,you do,0
+alto,tall,0
+maldita,damn,0
+comer,to eat,0
+número,number,0
+dar,to give,0
+necesitas,you need,0
+oportunidad,chance,0
+punto,point,0
+misma,same,0
+última,last,0
+afuera,outside,0
+mujeres,women,0
+pensar,to think,0
+fueron,were,0
+difícil,hard,0
+vivir,to live,0
+paso,step,0
+malo,bad,0
+estabas,You were,0
+vivo,live,0
+haga,make,0
+queda,remains,0
+hijos,sons,0
+mayor,elderly,0
+fiesta,party,0
+hacen,make,0
+medio,medium,0
+algunas,some,0
+basta,Enough,0
+arma,weapon,0
+vino,came,0
+meses,months,0
+cuarto,fourth,0
+éste,East,0
+escuela,school,0
+esté,East,0
+dólares,Dollars,0
+tío,uncle,0
+posible,possible,0
