@@ -2,7 +2,6 @@ from tkinter import *
 import pandas
 
 vocab = pandas.read_csv("vocab.csv")
-print(vocab)
 
 window = Tk()
 window.config(width=600, height=500, padx=20, pady=20)
