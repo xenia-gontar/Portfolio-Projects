@@ -37,6 +37,13 @@ def flip_card():
         show_translation()
         translation_mode = 0
 
+def mark_known_words():
+    new_words.remove(current_word)
+    randomise_words()
+
+def next_card():
+    randomise_words()
+
 
 
 window = Tk()
@@ -53,10 +60,9 @@ no_button.grid(row=1, column=0)
 flip_button = Button(text="Show translation", command=flip_card)
 flip_button.grid(row=1, column=1)
 
-yes_button = Button(text="I know this word")
-yes_button.grid(row=1, column=2)
+yes_button = Button(text="I know this word", command=mark_known_words)
+yes_button.grid(row=1, column=2, command=next_card)
 
 randomise_words()
 
 window.mainloop()
-
