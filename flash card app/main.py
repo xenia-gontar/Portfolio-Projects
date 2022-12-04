@@ -54,14 +54,17 @@ window.config(width=600, height=500, padx=20, pady=20)
 current_card = Label(text="Word")
 current_card.grid(row=0, column=1)
 
-no_button = Button(text="I don't know this word")
+no_button = Button(text="I don't know this word", command=next_card)
 no_button.grid(row=1, column=0)
 
 flip_button = Button(text="Show translation", command=flip_card)
 flip_button.grid(row=1, column=1)
 
 yes_button = Button(text="I know this word", command=mark_known_words)
-yes_button.grid(row=1, column=2, command=next_card)
+yes_button.grid(row=1, column=2)
+
+score = Label(text="0/400 Words Learned")
+score.grid(row=2, column=1)
 
 randomise_words()
 
