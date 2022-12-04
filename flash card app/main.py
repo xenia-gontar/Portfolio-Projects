@@ -9,6 +9,7 @@ print(new_words)
 
 translation_mode = 1
 current_word = ""
+score = 0
 
 def randomise_words():
     word = random.choice(new_words)
@@ -40,6 +41,10 @@ def flip_card():
 def mark_known_words():
     new_words.remove(current_word)
     randomise_words()
+    global score
+    score += 1
+    score_display.config(text=f"{score}/400 Words Learned")
+
 
 def next_card():
     randomise_words()
@@ -63,8 +68,8 @@ flip_button.grid(row=1, column=1)
 yes_button = Button(text="I know this word", command=mark_known_words)
 yes_button.grid(row=1, column=2)
 
-score = Label(text="0/400 Words Learned")
-score.grid(row=2, column=1)
+score_display = Label(text="0/400 Words Learned")
+score_display.grid(row=2, column=1)
 
 randomise_words()
 
