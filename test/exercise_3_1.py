@@ -61,7 +61,7 @@ for list_of_prime_multipliers in multipliers:
             pair_of_multipliers = []
             pair_of_multipliers.append(multi)
             pair_of_multipliers.append(number/multi)
-            set_of_multi.append(pair_of_multipliers)
+            set_of_multi.append(sorted(pair_of_multipliers))
     elif len(list_of_prime_multipliers) == 4:
         multipliers_1 = find_new_multipliers(list_of_prime_multipliers, 2)
         multipliers_2 = []
@@ -69,7 +69,7 @@ for list_of_prime_multipliers in multipliers:
             pair_of_multipliers = []
             pair_of_multipliers.append(multi)
             pair_of_multipliers.append(number/multi)
-            set_of_multi.append(pair_of_multipliers)
+            set_of_multi.append(sorted(pair_of_multipliers))
     elif len(list_of_prime_multipliers) == 5:
         multipliers_1 = find_new_multipliers(list_of_prime_multipliers, 2)
         multipliers_2 = []
@@ -77,7 +77,7 @@ for list_of_prime_multipliers in multipliers:
             pair_of_multipliers = []
             pair_of_multipliers.append(multi)
             pair_of_multipliers.append(number/multi)
-            set_of_multi.append(pair_of_multipliers)
+            set_of_multi.append(sorted(pair_of_multipliers))
             
     elif len(list_of_prime_multipliers) == 6:
         multipliers_1 = find_new_multipliers(list_of_prime_multipliers, 2)
@@ -86,14 +86,14 @@ for list_of_prime_multipliers in multipliers:
             pair_of_multipliers = []
             pair_of_multipliers.append(multi)
             pair_of_multipliers.append(number/multi)
-            set_of_multi.append(pair_of_multipliers)
+            set_of_multi.append(sorted(pair_of_multipliers))
         multipliers_1 = find_new_multipliers(list_of_prime_multipliers, 3)
         multipliers_2 = []
         for multi in multipliers_1:
             pair_of_multipliers = []
             pair_of_multipliers.append(multi)
             pair_of_multipliers.append(number/multi)
-            set_of_multi.append(pair_of_multipliers)
+            set_of_multi.append(sorted(pair_of_multipliers))
     
     elif len(list_of_prime_multipliers) == 7:
         multipliers_1 = find_new_multipliers(list_of_prime_multipliers, 2)
@@ -102,14 +102,14 @@ for list_of_prime_multipliers in multipliers:
             pair_of_multipliers = []
             pair_of_multipliers.append(multi)
             pair_of_multipliers.append(number/multi)
-            set_of_multi.append(pair_of_multipliers)
+            set_of_multi.append(sorted(pair_of_multipliers))
         multipliers_1 = find_new_multipliers(list_of_prime_multipliers, 3)
         multipliers_2 = []
         for multi in multipliers_1:
             pair_of_multipliers = []
             pair_of_multipliers.append(multi)
             pair_of_multipliers.append(number/multi)
-            set_of_multi.append(pair_of_multipliers)
+            set_of_multi.append(sorted(pair_of_multipliers))
             
     elif len(list_of_prime_multipliers) == 8:
         multipliers_1 = find_new_multipliers(list_of_prime_multipliers, 2)
@@ -118,14 +118,14 @@ for list_of_prime_multipliers in multipliers:
             pair_of_multipliers = []
             pair_of_multipliers.append(multi)
             pair_of_multipliers.append(number/multi)
-            set_of_multi.append(pair_of_multipliers)
+            set_of_multi.append(sorted(pair_of_multipliers))
         multipliers_1 = find_new_multipliers(list_of_prime_multipliers, 3)
         multipliers_2 = []
         for multi in multipliers_1:
             pair_of_multipliers = []
             pair_of_multipliers.append(multi)
             pair_of_multipliers.append(number/multi)
-            set_of_multi.append(pair_of_multipliers)
+            set_of_multi.append(sorted(pair_of_multipliers))
             
         multipliers_1 = find_new_multipliers(list_of_prime_multipliers, 4)
         multipliers_2 = []
@@ -133,10 +133,21 @@ for list_of_prime_multipliers in multipliers:
             pair_of_multipliers = []
             pair_of_multipliers.append(multi)
             pair_of_multipliers.append(number/multi)
-            set_of_multi.append(pair_of_multipliers)
+            set_of_multi.append(sorted(pair_of_multipliers))
             
     dictionary[number] = set_of_multi
 
+   
+
+# удалим повторы
+for key, value in dictionary.items():
+    new_value = []
+    for elem in value:
+        if elem not in new_value:
+            new_value.append(elem)
+    dictionary[key] = new_value        
+
+
 print(dictionary)    
-        
+    
         
