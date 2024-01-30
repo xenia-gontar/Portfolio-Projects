@@ -48,10 +48,95 @@ print(multi)
 # Всего максимальное количество множителей - 8
 # Поэтому возможны такие ситуации: для 3 множителей - 2 и 1, для 4 множителей - 2 и 2, для 5 множителей - 2 и 3, 
 ## для 6 множителей - 2 и 4, 3 и 3, для 7 множителей - 2 и 5, 3 и 4, для 8 множителей - 2 и 6, 3 и 5, 4 и 4
-dict = {}
+dictionary = {}
 # ключ - число, значение - список списков спаренных множителей
 
 for list_of_prime_multipliers in multipliers:
     number = math.prod(list_of_prime_multipliers)
+    set_of_multi = []
     if len(list_of_prime_multipliers) == 3:
         multipliers_1 = find_new_multipliers(list_of_prime_multipliers, 1)
+        multipliers_2 = []
+        for multi in multipliers_1:
+            pair_of_multipliers = []
+            pair_of_multipliers.append(multi)
+            pair_of_multipliers.append(number/multi)
+            set_of_multi.append(pair_of_multipliers)
+    elif len(list_of_prime_multipliers) == 4:
+        multipliers_1 = find_new_multipliers(list_of_prime_multipliers, 2)
+        multipliers_2 = []
+        for multi in multipliers_1:
+            pair_of_multipliers = []
+            pair_of_multipliers.append(multi)
+            pair_of_multipliers.append(number/multi)
+            set_of_multi.append(pair_of_multipliers)
+    elif len(list_of_prime_multipliers) == 5:
+        multipliers_1 = find_new_multipliers(list_of_prime_multipliers, 2)
+        multipliers_2 = []
+        for multi in multipliers_1:
+            pair_of_multipliers = []
+            pair_of_multipliers.append(multi)
+            pair_of_multipliers.append(number/multi)
+            set_of_multi.append(pair_of_multipliers)
+            
+    elif len(list_of_prime_multipliers) == 6:
+        multipliers_1 = find_new_multipliers(list_of_prime_multipliers, 2)
+        multipliers_2 = []
+        for multi in multipliers_1:
+            pair_of_multipliers = []
+            pair_of_multipliers.append(multi)
+            pair_of_multipliers.append(number/multi)
+            set_of_multi.append(pair_of_multipliers)
+        multipliers_1 = find_new_multipliers(list_of_prime_multipliers, 3)
+        multipliers_2 = []
+        for multi in multipliers_1:
+            pair_of_multipliers = []
+            pair_of_multipliers.append(multi)
+            pair_of_multipliers.append(number/multi)
+            set_of_multi.append(pair_of_multipliers)
+    
+    elif len(list_of_prime_multipliers) == 7:
+        multipliers_1 = find_new_multipliers(list_of_prime_multipliers, 2)
+        multipliers_2 = []
+        for multi in multipliers_1:
+            pair_of_multipliers = []
+            pair_of_multipliers.append(multi)
+            pair_of_multipliers.append(number/multi)
+            set_of_multi.append(pair_of_multipliers)
+        multipliers_1 = find_new_multipliers(list_of_prime_multipliers, 3)
+        multipliers_2 = []
+        for multi in multipliers_1:
+            pair_of_multipliers = []
+            pair_of_multipliers.append(multi)
+            pair_of_multipliers.append(number/multi)
+            set_of_multi.append(pair_of_multipliers)
+            
+    elif len(list_of_prime_multipliers) == 8:
+        multipliers_1 = find_new_multipliers(list_of_prime_multipliers, 2)
+        multipliers_2 = []
+        for multi in multipliers_1:
+            pair_of_multipliers = []
+            pair_of_multipliers.append(multi)
+            pair_of_multipliers.append(number/multi)
+            set_of_multi.append(pair_of_multipliers)
+        multipliers_1 = find_new_multipliers(list_of_prime_multipliers, 3)
+        multipliers_2 = []
+        for multi in multipliers_1:
+            pair_of_multipliers = []
+            pair_of_multipliers.append(multi)
+            pair_of_multipliers.append(number/multi)
+            set_of_multi.append(pair_of_multipliers)
+            
+        multipliers_1 = find_new_multipliers(list_of_prime_multipliers, 4)
+        multipliers_2 = []
+        for multi in multipliers_1:
+            pair_of_multipliers = []
+            pair_of_multipliers.append(multi)
+            pair_of_multipliers.append(number/multi)
+            set_of_multi.append(pair_of_multipliers)
+            
+    dictionary[number] = set_of_multi
+
+print(dictionary)    
+        
+        
