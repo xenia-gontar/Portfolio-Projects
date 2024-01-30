@@ -31,9 +31,17 @@ for multiplier in multipliers:
         max = len(multiplier)
 print(max)
 
-def combinations_without_repetitions(list_of_multipliers, number):
-    combination_set = []
+def find_new_multipliers(list_of_multipliers, number):
+    new_multipliers = []
+    super_new_multipliers = []
     for i in combinations(list_of_multipliers, number):
-        combination_set.append(i)
-        combination_set = sorted(list((set(combination_set)))
-    return combination_set    
+        new_multipliers.append(i)
+    for set_of_multipliers in new_multipliers:
+        product = 1
+        for k in set_of_multipliers:
+            product = product * k
+        super_new_multipliers.append(product)
+    return set(super_new_multipliers)
+    
+multi = find_new_multipliers([2,3,4,5], 3)
+print(multi)
