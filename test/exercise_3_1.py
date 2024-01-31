@@ -1,3 +1,5 @@
+
+        
 from itertools import *
 import math
 
@@ -149,5 +151,23 @@ for key, value in dictionary.items():
 
 
 print(dictionary)    
+  
+# считаем суммы  
+new_dictionary = dictionary
+
+for key, value in new_dictionary.items():
+    new_value = []
+    sum = 0
+    for each_value in value:
+        for number in each_value:
+            sum += number
+        if sum < 100: 
+                new_value.append(sum)    
+    new_dictionary[key] = []        
+    new_dictionary[key] = new_value         
+print("Новый словарь: \n")
+print(new_dictionary)       
     
+            
+        
         
